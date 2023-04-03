@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Conversor de divisas</title>
+  <script src="conversor.js"></script>
+  <link rel="stylesheet" href="/assets/estilos.css">
+</head>
+
+<body>
+
+  <h1>Conversor de divisas</h1>
+  <form>
+    <label for="amount">Cantidad:</label>
+    <input type="number" id="amount" />
+
+    <label for="from">De:</label>
+    <select id="from">
+      <option value="EUR">Euro</option>
+      <option value="USD">Dólar estadounidense</option>
+      <option value="JPY">Yen japonés</option>
+      <option value="GBP">Libra esterlina</option>
+      <option value="AUD">Dólar australiano</option>
+      <option value="ARS">Peso Argentino</option>
+      <option value="BRL">REAL BRASIL</option>
+     
+     
+    </select>
+
+    <label for="to">A:</label>
+    <select id="to">
+      <option value="USD">Dólar estadounidense</option>
+      <option value="EUR">Euro</option>
+      <option value="JPY">Yen japonés</option>
+      <option value="GBP">Libra esterlina</option>
+      <option value="AUD">Dólar australiano</option>
+      <option value="ARS">Peso Argentino</option>
+      <option value="BRL">REAL BRASIL</option>
+    </select>
+
+    <button type="button" id="convertBtn">Convertir</button>
+
+
+  </form>
+  <p id="result"></p>
+
+
+
+</body>
+
+</html>
